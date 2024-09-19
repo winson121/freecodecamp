@@ -273,9 +273,9 @@ ALTER TABLE ONLY public.star ALTER COLUMN star_id SET DEFAULT nextval('public.st
 -- Data for Name: civilization; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.civilization VALUES (4, 'Atlantean', 'An advanced civilization known for its remarkable engineering and maritime skills.', 2, 10000, 28);
-INSERT INTO public.civilization VALUES (5, 'Martian', 'A civilization that evolved on Mars, specializing in sustainable technologies.', 1, 5000, 30);
-INSERT INTO public.civilization VALUES (6, 'Venusian', 'A unique civilization adapted to the extreme conditions of Venus.', 2, 8000, 29);
+INSERT INTO public.civilization VALUES (4, 'Atlantean', 'An advanced civilization known for its remarkable engineering and maritime skills.', 2, 10000, 2);
+INSERT INTO public.civilization VALUES (5, 'Martian', 'A civilization that evolved on Mars, specializing in sustainable technologies.', 1, 5000, 3);
+INSERT INTO public.civilization VALUES (6, 'Venusian', 'A unique civilization adapted to the extreme conditions of Venus.', 2, 8000, 9);
 
 
 --
@@ -294,56 +294,56 @@ INSERT INTO public.galaxy VALUES (6, 'TadpoleA', NULL, 4, 'Alt T10');
 -- Data for Name: moon; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.moon VALUES (1, 'Luna', 'Earth''s only natural satellite.', 1, 384400.00, true, 25);
-INSERT INTO public.moon VALUES (2, 'Io', 'A volcanic moon of Jupiter with over 400 active volcanoes.', 1, 421700.00, true, 26);
-INSERT INTO public.moon VALUES (3, 'Europa', 'An icy moon of Jupiter, potential subsurface ocean.', 1, 671100.00, true, 27);
-INSERT INTO public.moon VALUES (4, 'Ganymede', 'Largest moon in the solar system, larger than Mercury.', 1, 1070000.00, true, 28);
-INSERT INTO public.moon VALUES (5, 'Callisto', 'Old and heavily cratered, it has a thin atmosphere.', 1, 1883000.00, true, 29);
-INSERT INTO public.moon VALUES (6, 'Titan', 'Largest moon of Saturn, has a dense atmosphere and lakes of methane.', 1, 1222000.00, true, 30);
-INSERT INTO public.moon VALUES (7, 'Rhea', 'Second largest moon of Saturn, with a wispy atmosphere.', 1, 527600.00, true, 31);
-INSERT INTO public.moon VALUES (8, 'Enceladus', 'Known for its geysers, believed to have subsurface ocean.', 1, 2379500.00, true, 32);
-INSERT INTO public.moon VALUES (9, 'Triton', 'Largest moon of Neptune, geologically active with geysers.', 1, 354800.00, true, 33);
-INSERT INTO public.moon VALUES (10, 'Charon', 'Largest moon of Pluto, shares a gravitational center with Pluto.', 1, 19570.00, true, 34);
-INSERT INTO public.moon VALUES (11, 'Miranda', 'A moon of Uranus with a diverse landscape.', 1, 129000.00, true, 35);
-INSERT INTO public.moon VALUES (12, 'Titania', 'Largest moon of Uranus, features large canyons and cliffs.', 1, 436300.00, true, 36);
-INSERT INTO public.moon VALUES (13, 'Oberon', 'Second largest moon of Uranus, heavily cratered surface.', 1, 583500.00, true, 25);
-INSERT INTO public.moon VALUES (14, 'Phobos', 'Mars'' larger moon, has a highly irregular shape.', 1, 6000.00, true, 26);
-INSERT INTO public.moon VALUES (15, 'Deimos', 'Smaller moon of Mars, also irregular in shape.', 1, 23460.00, true, 27);
-INSERT INTO public.moon VALUES (16, 'Dione', 'A moon of Saturn, characterized by bright icy terrain.', 1, 561500.00, true, 28);
-INSERT INTO public.moon VALUES (17, 'Iapetus', 'Known for its two-tone coloration.', 1, 3560000.00, true, 29);
-INSERT INTO public.moon VALUES (18, 'Mimas', 'Resembles the Death Star from Star Wars due to its large crater.', 1, 1856000.00, true, 30);
-INSERT INTO public.moon VALUES (19, 'Ceres', 'Dwarf planet with a spherical shape, located in the asteroid belt.', 1, 413000000.00, true, 31);
-INSERT INTO public.moon VALUES (20, 'Eris', 'Dwarf planet, one of the largest known in the solar system.', 1, 960000000.00, true, 32);
+INSERT INTO public.moon VALUES (1, 'Luna', 'Earth''s only natural satellite.', 1, 384400.00, true, 1);
+INSERT INTO public.moon VALUES (2, 'Io', 'A volcanic moon of Jupiter with over 400 active volcanoes.', 1, 421700.00, true, 2);
+INSERT INTO public.moon VALUES (3, 'Europa', 'An icy moon of Jupiter, potential subsurface ocean.', 1, 671100.00, true, 2);
+INSERT INTO public.moon VALUES (4, 'Ganymede', 'Largest moon in the solar system, larger than Mercury.', 1, 1070000.00, true, 2);
+INSERT INTO public.moon VALUES (5, 'Callisto', 'Old and heavily cratered, it has a thin atmosphere.', 1, 1883000.00, true, 2);
+INSERT INTO public.moon VALUES (6, 'Titan', 'Largest moon of Saturn, has a dense atmosphere and lakes of methane.', 1, 1222000.00, true, 3);
+INSERT INTO public.moon VALUES (7, 'Rhea', 'Second largest moon of Saturn, with a wispy atmosphere.', 1, 527600.00, true, 3);
+INSERT INTO public.moon VALUES (8, 'Enceladus', 'Known for its geysers, believed to have subsurface ocean.', 1, 2379500.00, true, 3);
+INSERT INTO public.moon VALUES (9, 'Triton', 'Largest moon of Neptune, geologically active with geysers.', 1, 354800.00, true, 4);
+INSERT INTO public.moon VALUES (10, 'Charon', 'Largest moon of Pluto, shares a gravitational center with Pluto.', 1, 19570.00, true, 5);
+INSERT INTO public.moon VALUES (11, 'Miranda', 'A moon of Uranus with a diverse landscape.', 1, 129000.00, true, 6);
+INSERT INTO public.moon VALUES (12, 'Titania', 'Largest moon of Uranus, features large canyons and cliffs.', 1, 436300.00, true, 6);
+INSERT INTO public.moon VALUES (13, 'Oberon', 'Second largest moon of Uranus, heavily cratered surface.', 1, 583500.00, true, 6);
+INSERT INTO public.moon VALUES (14, 'Phobos', 'Mars'' larger moon, has a highly irregular shape.', 1, 6000.00, true, 7);
+INSERT INTO public.moon VALUES (15, 'Deimos', 'Smaller moon of Mars, also irregular in shape.', 1, 23460.00, true, 7);
+INSERT INTO public.moon VALUES (16, 'Dione', 'A moon of Saturn, characterized by bright icy terrain.', 1, 561500.00, true, 3);
+INSERT INTO public.moon VALUES (17, 'Iapetus', 'Known for its two-tone coloration.', 1, 3560000.00, true, 3);
+INSERT INTO public.moon VALUES (18, 'Mimas', 'Resembles the Death Star from Star Wars due to its large crater.', 1, 1856000.00, true, 3);
+INSERT INTO public.moon VALUES (19, 'Ceres', 'Dwarf planet with a spherical shape, located in the asteroid belt.', 1, 413000000.00, true, 8);
+INSERT INTO public.moon VALUES (20, 'Eris', 'Dwarf planet, one of the largest known in the solar system.', 1, 960000000.00, true, 9);
 
 
 --
 -- Data for Name: planet; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.planet VALUES (25, 'XJ20', 1, true, true, NULL, NULL, 8);
-INSERT INTO public.planet VALUES (26, 'XX20', 1, false, true, NULL, NULL, 5);
-INSERT INTO public.planet VALUES (27, 'XJ22', 1, false, false, NULL, NULL, 3);
-INSERT INTO public.planet VALUES (28, 'XJ21', 1, false, false, NULL, NULL, 4);
-INSERT INTO public.planet VALUES (29, 'XM20', 1, true, true, NULL, NULL, 5);
-INSERT INTO public.planet VALUES (30, 'XJ30', 1, false, true, NULL, NULL, 6);
-INSERT INTO public.planet VALUES (31, 'XJ31', 1, false, false, NULL, NULL, 6);
-INSERT INTO public.planet VALUES (32, 'ME01', 1, false, true, NULL, NULL, 4);
-INSERT INTO public.planet VALUES (33, 'ME02', 1, false, false, NULL, NULL, 3);
-INSERT INTO public.planet VALUES (34, 'KL11', 1, false, false, NULL, NULL, 4);
-INSERT INTO public.planet VALUES (35, 'SS10', 1, false, true, NULL, NULL, 3);
-INSERT INTO public.planet VALUES (36, 'SS15', 1, false, false, NULL, NULL, 7);
+INSERT INTO public.planet VALUES (1, 'XJ20', 1, true, true, NULL, NULL, 1);
+INSERT INTO public.planet VALUES (2, 'XX20', 1, false, true, NULL, NULL, 2);
+INSERT INTO public.planet VALUES (3, 'XJ22', 1, false, false, NULL, NULL, 3);
+INSERT INTO public.planet VALUES (4, 'XJ21', 1, false, false, NULL, NULL, 4);
+INSERT INTO public.planet VALUES (5, 'XM20', 1, true, true, NULL, NULL, 5);
+INSERT INTO public.planet VALUES (6, 'XJ30', 1, false, true, NULL, NULL, 6);
+INSERT INTO public.planet VALUES (7, 'XJ31', 1, false, false, NULL, NULL, 1);
+INSERT INTO public.planet VALUES (8, 'ME01', 1, false, true, NULL, NULL, 2);
+INSERT INTO public.planet VALUES (9, 'ME02', 1, false, false, NULL, NULL, 3);
+INSERT INTO public.planet VALUES (10, 'KL11', 1, false, false, NULL, NULL, 4);
+INSERT INTO public.planet VALUES (11, 'SS10', 1, false, true, NULL, NULL, 5);
+INSERT INTO public.planet VALUES (12, 'SS15', 1, false, false, NULL, NULL, 6);
 
 
 --
 -- Data for Name: star; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.star VALUES (3, 'RegulusA', NULL, 1, 1);
-INSERT INTO public.star VALUES (4, 'Petra', NULL, 2, 2);
-INSERT INTO public.star VALUES (5, 'SohailA', NULL, 3, 3);
-INSERT INTO public.star VALUES (6, 'MoriahA', NULL, 4, 4);
-INSERT INTO public.star VALUES (7, 'IrenaA', NULL, 2, 5);
-INSERT INTO public.star VALUES (8, 'VegaA', NULL, 2, 6);
+INSERT INTO public.star VALUES (1, 'RegulusA', NULL, 1, 1);
+INSERT INTO public.star VALUES (2, 'Petra', NULL, 2, 2);
+INSERT INTO public.star VALUES (3, 'SohailA', NULL, 3, 3);
+INSERT INTO public.star VALUES (4, 'MoriahA', NULL, 4, 4);
+INSERT INTO public.star VALUES (5, 'IrenaA', NULL, 2, 5);
+INSERT INTO public.star VALUES (6, 'VegaA', NULL, 2, 6);
 
 
 --
@@ -371,14 +371,14 @@ SELECT pg_catalog.setval('public.moon_moon_id_seq', 20, true);
 -- Name: planet_planet_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.planet_planet_id_seq', 36, true);
+SELECT pg_catalog.setval('public.planet_planet_id_seq', 12, true);
 
 
 --
 -- Name: star_star_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.star_star_id_seq', 8, true);
+SELECT pg_catalog.setval('public.star_star_id_seq', 6, true);
 
 
 --
